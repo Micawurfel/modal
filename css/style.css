@@ -1,0 +1,44 @@
+body{ 
+    background-image: url(https://cdn.pixabay.com/photo/2022/11/27/11/33/tree-7619534_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    border-radius:4%;
+}
+
+h1{
+    size: 4em;
+}
+
+.btn{
+    background-color: turquoise;
+    color: white;
+    text-transform: uppercase;
+}
+
+#modal-overly{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+
+#modal{
+    background-color: whitesmoke;
+    width: 40%;
+    border-radius: 4%;
+}
+
+#close-btn{
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 24px;
+    align-self: flex-end;
+}
